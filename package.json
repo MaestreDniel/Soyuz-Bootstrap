@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaestreDniel/Maqueta-Bootstrap.git"
+    "url": "git+https://github.com/MaestreDniel/Soyuz-Bootstrap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaestreDniel/Maqueta-Bootstrap/issues"
+    "url": "https://github.com/MaestreDniel/Soyuz-Bootstrap/issues"
   },
-  "homepage": "https://github.com/MaestreDniel/Maqueta-Bootstrap#readme",
+  "homepage": "https://github.com/MaestreDniel/Soyuz-Bootstrap#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
   }

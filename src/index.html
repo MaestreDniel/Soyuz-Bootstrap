@@ -1,17 +1,125 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link href="css/custom.css" rel="stylesheet">
+    <title>Soyuz Spacecraft</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+  <body class="background-custom">
+    <div id="page">
+
+      <header>
+        <nav class="navbar navbar-expand-sm bg-dark justify-content-center p-0">
+          <a href="index.html" class="logo me-4"><img src="images/logo.png" alt=""></a>
+          <ul class="navbar-nav text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="projects.html">Proj 1</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="blog.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="blog.html">Single post</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="body">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center mt-4">
+            <img class="col-5" src="images/satellite.png" alt="satellite">
+            <div class="col-7 text-white">
+              <h1 class="col xxl-font">SOYUZ TMA-M</h1>
+              <h2 class="col">SPACECRAFT</h2>
+              <a href="blog.html" class="col btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+          <h3>FEATURED PROJECTS</h3>
+          <ul>
+            <li>
+              <a href="projects.html"><img src="images/project-image1.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="projects.html"><img src="images/project-image2.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="projects.html"><img src="images/project-image3.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="projects.html"><img src="images/project-image4.jpg" alt=""></a>
+            </li>
+          </ul>
+
+        <div class="body">
+          <div>
+            <h1>OUR MISSION</h1>
+            <p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+          </div>
+        </div>
+
+        <footer>
+          <ul>
+            <li>
+              <h1>FEATURED VIDEO</h1>
+              <a href="blog.html"><img src="images/mars-rover.jpg" alt=""><span></span></a>
+            </li>
+            <li>
+              <h1>LATEST BLOG</h1>
+              <ul>
+                <li>
+                  <a href="blog.html"><img src="images/finding-planet.jpg" alt=""></a>
+                  <h1>FINDING PLANET X-123</h1>
+                  <span>FEBRUARY 6, 2023</span>
+                  <a href="blog.html" class="more">Read More</a>
+                </li>
+                <li>
+                  <a href="blog.html"><img src="images/new-satellitedish.jpg" alt=""></a>
+                  <h1>NEW SATELLITE DISH</h1>
+                  <span>FEBRUARY 3, 2023</span>
+                  <a href="blog.html" class="more">Read More</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+      <footer>
+        <div class="connect">
+          <div>
+            <h1>FOLLOW OUR  MISSIONS ON</h1>
+            <div>
+              <a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
+              <a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
+              <a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
+              <a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+            </div>
+          </div>
+        </div>
+        <div class="footnote">
+          <div>
+            <p>&copy; 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
