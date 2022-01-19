@@ -19,6 +19,14 @@
   font-size: calc(1.375rem + 3vw);
 }
 
+.font-space {
+  font-family: audiowide-regular-webfont;
+}
+
+.bg-darker {
+  background-color: #121212;
+}
+
 /* // Option B: Include parts of Bootstrap
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)

@@ -11119,7 +11119,7 @@ textarea.form-control-lg {
   }
 }
 .background-custom {
-  background-image: url('../images/bg-home.jpg');
+  background-image: url("../images/bg-home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 120vh;
@@ -11128,6 +11128,14 @@ textarea.form-control-lg {
 
 .xxl-font {
   font-size: calc(1.375rem + 3vw);
+}
+
+.font-space {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-darker {
+  background-color: #121212;
 }
 
 /* // Option B: Include parts of Bootstrap
