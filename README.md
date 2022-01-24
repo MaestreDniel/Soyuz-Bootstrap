@@ -14,13 +14,14 @@ Para la asignatura de DIW debemos recrear una web hecha a partir de una de las p
   - Colors
   - Flex
   - Text
-<br>
+
 - Components
   - Buttons
   - Cards
   - Collapse
   - Navbar
   - Modals
+  - Carousel
 
 ## Cosas personalizadas
 
