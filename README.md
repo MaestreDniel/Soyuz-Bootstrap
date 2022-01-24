@@ -37,3 +37,7 @@ Para la asignatura de DIW debemos recrear una web hecha a partir de una de las p
 - Texto sobre fondo oscuro: #FFFFFF
 - Bootstrap dark: #212529
 - Secundario: #121212
+
+## Extras
+
+Se me pedía hacer solamente las páginas de index y blog, pero he hecho también una página para projects muy sencilla.
