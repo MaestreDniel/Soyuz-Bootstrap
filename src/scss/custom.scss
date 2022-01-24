@@ -3,6 +3,9 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+$primary: #64186e;
+$secondary: #121212;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -21,10 +24,6 @@
 
 .font-space {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.bg-darker {
-  background-color: #121212;
 }
 
 /* // Option B: Include parts of Bootstrap
