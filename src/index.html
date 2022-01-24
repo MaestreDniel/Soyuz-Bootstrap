@@ -12,31 +12,36 @@
     <div id="page">
 
       <header>
-        <nav class="navbar navbar-expand-sm bg-dark justify-content-center p-0">
-          <a href="index.html" class="logo me-4"><img src="images/logo.png" alt=""></a>
-          <ul class="navbar-nav text-uppercase">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="projects.html">Proj 1</a></li>
+        <nav class="navbar navbar-expand-md p-0 navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" class="logo me-4"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav text-uppercase">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Proj 1</a></li>
+                    <li><a class="dropdown-item" href="#">Proj 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="blog.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="blog.html">Single post</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </nav>
       </header>
 
@@ -44,8 +49,8 @@
       <main class="container">
 
         <div class="row align-items-center justify-content-center text-center mt-4">
-          <img class="col-4" src="images/satellite.png" alt="satellite">
-          <div class="col-7 text-white">
+          <img class="col-sm-4 col-8" src="images/satellite.png" alt="satellite">
+          <div class="col-sm-7 col-8 text-white">
             <h1 class="col xxl-font">SOYUZ TMA-M</h1>
             <h2 class="col">SPACECRAFT</h2>
             <a href="blog.html" class="col btn btn-dark m-3">Read More</a>
@@ -60,35 +65,35 @@
 
           <div class="card-group mt-2">
             <div class="card">
-              <a href="projects.html"><img src="images/project-image1.jpg" class="card-img-top" alt="..."></a>
+              <a href="blog.html"><img src="images/project-image1.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="projects.html" class="btn btn-primary">Link</a>
+                <a href="blog.html" class="btn btn-primary">Link</a>
               </div>
             </div>
             <div class="card">
-              <a href="projects.html"><img src="images/project-image2.jpg" class="card-img-top" alt="..."></a>
+              <a href="blog.html"><img src="images/project-image2.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="projects.html" class="btn btn-primary">Link</a>
+                <a href="blog.html" class="btn btn-primary">Link</a>
               </div>
             </div>
             <div class="card">
-              <a href="projects.html"><img src="images/project-image3.jpg" class="card-img-top" alt="..."></a>
+              <a href="blog.html"><img src="images/project-image3.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="projects.html" class="btn btn-primary">Link</a>
+                <a href="blog.html" class="btn btn-primary">Link</a>
               </div>
             </div>
             <div class="card">
-              <a href="projects.html"><img src="images/project-image4.jpg" class="card-img-top" alt="..."></a>
+              <a href="blog.html"><img src="images/project-image4.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="projects.html" class="btn btn-primary">Link</a>
+                <a href="blog.html" class="btn btn-primary">Link</a>
               </div>
             </div>
           </div>
@@ -123,25 +128,25 @@
       
       <footer class="container-fluid px-0 my-5 text-white">
         <div class="row g-0 p-5">
-          <div class="col text-end">
+          <div class="col-lg-6 col-12 px-4 text-lg-end text-center">
             <h1>FEATURED VIDEO</h1>
-            <a href="blog.html"><img src="images/mars-rover.jpg" alt=""></a>
+            <a href="blog.html"><img class="col-8" src="images/mars-rover.jpg" alt=""></a>
           </div>
-          <div class="col">
+          <div class="col-lg-6 col-12 px-4 py-lg-0 py-4">
             <h1>LATEST BLOG</h1>
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-row mt-1">
               <div class="p-2"><a href="blog.html"><img src="images/finding-planet.jpg" alt=""></a></div>
               <div class="d-flex flex-column">
-                <div class="p-2"><h3>FINDING PLANET X-123</h3></div>
+                <div class="px-2"><h3>FINDING PLANET X-123</h3></div>
                 <div class="ps-2"><span>FEBRUARY 6, 2023</span></div>
                 <div class="ps-2 mt-2"><a href="blog.html" class="btn btn-primary">Read more</a></div>
               </div>
             </div>
             <hr>
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-row mt-1">
               <div class="p-2"><a href="blog.html"><img src="images/new-satellitedish.jpg" alt=""></a></div>
               <div class="d-flex flex-column">
-                <div class="p-2"><h3>NEW SATELLITE DISH</h3></div>
+                <div class="px-2"><h3>NEW SATELLITE DISH</h3></div>
                 <div class="ps-2"><span>FEBRUARY 3, 2023</span></div>
                 <div class="ps-2 mt-2"><a href="blog.html" class="btn btn-primary">Read more</a></div>
               </div>

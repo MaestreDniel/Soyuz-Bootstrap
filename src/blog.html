@@ -12,58 +12,64 @@
     <div id="page">
 			
 			<header>
-        <nav class="navbar navbar-expand-sm bg-dark justify-content-center p-0">
-          <a href="index.html" class="logo me-4"><img src="images/logo.png" alt=""></a>
-          <ul class="navbar-nav text-uppercase">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="projects.html">Proj 1</a></li>
+        <nav class="navbar navbar-expand-md p-0 navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" class="logo me-4"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav text-uppercase">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Proj 1</a></li>
+                    <li><a class="dropdown-item" href="#">Proj 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="blog.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="blog.html">Single post</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </nav>
       </header>
 
 			<main class="container">
 				<div class="my-5 row">
+					
 					<h1>Blog</h1>
-					<div class="col-7">
+					<div class="col-xl-7 col-12">
 
-								<a href="singlepost.html"><img src="images/astronaut.jpg" alt=""></a>
-								<h1>SUCCESSFUL REPAIR OF THE MX-1 SAT</h1>
-								<span>FEBRUARY 6, 2023</span>
-								<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
-								<a href="singlepost.html" class="more">Read More</a>
+						<div class="py-2"><a href="#"><img src="images/astronaut.jpg" alt=""></a></div>
+						<h1>SUCCESSFUL REPAIR OF THE MX-1 SAT</h1>
+						<span>FEBRUARY 6, 2023</span>
+						<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+						<div class="ps-2"><a href="blog.html" class="btn btn-primary">Read more</a></div>
 
-								<hr>
+						<hr>
 
-								<a href="singlepost.html"><img src="images/satellite-dish.jpg" alt=""></a>
-								<h1>ALIEN SIGNAL DISCOVERY</h1>
-								<span>FEBRUARY 3, 2023</span>
-								<p>You can remove any link to our website from this website template, you're free to use this website template without linking back to us.</p>
-								<a href="singlepost.html" class="more">Read More</a>
+						<div class="py-2"><a href="#"><img src="images/satellite-dish.jpg" alt=""></a></div>
+						<h1>ALIEN SIGNAL DISCOVERY</h1>
+						<span>FEBRUARY 3, 2023</span>
+						<p>You can remove any link to our website from this website template, you're free to use this website template without linking back to us.</p>
+						<div class="ps-2"><a href="blog.html" class="btn btn-primary">Read more</a></div>
 
 					</div>
-					<div class="col-5">
+					<div class="col-xl-5 col-12">
 
 						<h1>FEATURED POSTS</h1>
-						<a href="singlepost.html"><img src="images/moon-satellite.jpg" alt=""></a>
+						<div class="py-2"><a href="#"><img src="images/moon-satellite.jpg" alt=""></a></div>
 						<h2>SOYUZ TMA-M</h2>
 						<span>FEBRUARY 6, 2023</span>
 
@@ -71,13 +77,22 @@
 
 						<h1>RECENT POSTS</h1>
 
-						<a href="singlepost.html"><img src="images/alien-life.jpg" alt=""></a>
-						<h2>ALIEN LIFE</h2>
-						<span>FEBRUARY 3, 2023</span>
+						<div class="d-flex flex-row mt-1">
+              <div class="p-2"><a href="#"><img src="images/alien-life.jpg" alt=""></a></div>
+              <div class="d-flex flex-column">
+                <div class="px-2"><h3>ALIEN LIFE</h3></div>
+                <div class="ps-2"><span>FEBRUARY 3, 2023</span></div>
+              </div>
+            </div>
 
-						<a href="singlepost.html"><img src="images/galaxy.jpg" alt=""></a>
-						<h2>THE GALAXY</h2>
-						<span>FEBRUARY 1, 2023</span>
+						<div class="d-flex flex-row mt-3">
+              <div class="p-2"><a href="#"><img src="images/galaxy.jpg" alt=""></a></div>
+              <div class="d-flex flex-column">
+                <div class="px-2"><h3>THE GALAXY</h3></div>
+                <div class="ps-2"><span>FEBRUARY 1, 2023</span></div>
+              </div>
+            </div>
+
 
 					</div>
 				</div>
